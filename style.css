@@ -1,0 +1,286 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080642;
+    color:white;
+    text-align: center;
+    align-items: center;
+    padding:10px;
+}
+.logo{
+    display: inline-flex;
+    padding:20px;
+    gap:10px;
+}
+.menu-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:30px;
+    padding:30px;
+}
+.cnt{
+padding:10px;
+    background-color: #1D0749;
+    color:white;
+    border: 1px solid white;
+    border-radius:5px 5px;
+    margin-left:10px
+}
+.abt{
+    padding:10px;
+    background-color: #EF6D58;
+    color:white;
+    border: 1px solid white;
+    border-radius:5px 5px;
+    margin-left:10px;
+}
+.banner-container{
+    background-color: #120645;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.frame-img{
+    height:70%;
+}
+.social-img{
+    text-align: center;
+    justify-content: center;
+    padding:30px;
+}
+.banner-text{
+    color:white;
+}
+.expert-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.expert-txt{
+    color:#4B2814;
+    font-weight: bold;
+    text-align:center
+}
+main{
+    background-color: #F0E3EC;
+
+}
+.bg-work{
+    background-color:#1D0749;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-work-img{
+    padding:20px;
+}
+.bg-work-desc{
+    
+    color:white;
+}.portfolio-container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-20px;
+    padding:10px;
+}
+.ppt{
+    text-align: center;
+}
+.ppt1{
+    text-align: center;
+}
+.card1{
+    display:flex;
+    gap:15px;
+}
+
+.card2{
+    display:flex;
+    gap:20px;
+}.img-pot{
+    position:relative;
+    z-index:0
+}
+.card11{
+    width:40%;
+
+
+}
+.port-btn{
+    border-radius:15px 15px;
+    padding:10px;
+    z-index: 1;
+}
+.port-p{
+    z-index: 1;
+
+}
+
+
+.review-container{
+    text-align: center;
+    padding:10%;
+    
+}
+.review{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.client-saying{
+    text-align: center;
+}
+.clients-say{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+.rev-butn{
+    background-color:#1D0749;
+    border:1px solid white;
+    color:white;
+    font-weight: bold;
+    padding:5px;
+    border-radius:5px 5px;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    
+}
+.clnts{
+    color:#4B2814;
+    text-align:center;
+}
+.client-say{
+    border:1.5px solid#F2D6CA;
+    padding:5px;
+    text-align:center
+    
+}
+.client-info{
+    display:flex;
+    gap:10px;
+    color:#4B2814;
+}
+.client-say:hover{
+    background-color: white;
+}
+.clientsay1{
+    display:flex;
+}
+.clientsay2{
+    display:flex;
+}
+.price-txt{
+    color:#4B2814;
+}
+.pricing{
+    padding:10%;
+}
+.price{
+    color:#EF6D58;
+}
+.price-img{
+    display:inline;
+}
+.priceh1{
+    color:#4B2814;
+}
+.buy-btn{
+background-color:white;
+border:none;
+font-weight: bold;
+padding:5px;
+}
+.buy-btn0{
+    background-color:#1D0749;
+    border:none;
+    color:white;
+    font-weight: bold;
+    padding:5px;
+    }
+.pricing-tabs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.package1{
+    padding:30px;
+    border:2.5px solid #F2D6CA;
+}.package2{
+    padding:30px;
+    border:2.5px solid #F2D6CA;
+    background-color: white;
+}
+
+.active{
+    color:#4B2814;
+    font-weight: bold;
+}
+.inactive{
+    color:#4B2814;
+    font-weight: lighter;
+}
+.price-div{
+    align-items: center;
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-cont{
+    color:#4B2814;
+    list-style: none;
+}
+.service-cont{
+    color:#4B2814;
+    list-style: none;
+}
+.faq{
+    padding:10%;
+}
+.faq-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align: right;
+}
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    
+}
+.footer{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    text-align:left;
+}
+.right{
+    text-align:right;
+    color:#4B2814;
+}
+.pop{
+    background-color: #080642;
+    color:white;
+    border-radius: 40px 40px;
+}
+.agency{
+    text-align:center;
+}
